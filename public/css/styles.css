@@ -1,0 +1,66 @@
+.chat-application {
+    max-width: 760px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.thread-section {
+    float: left;
+    width: 30%;
+}
+
+.thread-unread-count {
+    height: 40px;
+}
+
+.thread-list {
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    height: 400px;
+    margin: 0;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.thread-list-item {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.thread-list-item {
+    list-style: none;
+    padding: 12px 14px 14px;
+}
+
+.thread-name {
+    color: #66c;
+    float: left;
+    font-size: 13px;
+    margin: 0;
+}
+
+.thread-time {
+    color: #aad;
+    float: right;
+    font-size: 12px;
+}
+
+.thread-last-message {
+    clear: both;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+.thread-list:hover .thread-list-item:hover {
+    background-color: #f8f8ff;
+}
+
+.thread-list:hover .thread-list-item {
+    background-color: #fff;
+}
+
+.thread-list-item.active,
+.thread-list:hover .thread-list-item.active,
+.thread-list:hover .thread-list-item.active:hover {
+    background-color: #efefff;
+}
