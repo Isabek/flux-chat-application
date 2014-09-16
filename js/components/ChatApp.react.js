@@ -2,7 +2,7 @@
  * @jsx React.DOM
  */
 var React = require("react");
-var ThreadSection = require("../components/ThreadSection");
+var ThreadSection = require("../components/ThreadSection.react");
 
 var ChatApp = React.createClass({
     render: function () {
